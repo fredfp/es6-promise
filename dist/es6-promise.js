@@ -954,9 +954,6 @@
     };
 
     /* global define:true module:true window: true */
-    if (typeof define === 'function' && define['amd']) {
-      define(function() { return lib$es6$promise$umd$$ES6Promise; });
-    }
     if (typeof module !== 'undefined' && module['exports']) {
       module['exports'] = lib$es6$promise$umd$$ES6Promise;
     }
